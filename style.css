@@ -1,5 +1,6 @@
 body{
-    background-image: url('bg.jpg');
+    /* background-image: url('bg.jpg'); */
+    background-image: linear-gradient(rgb(255, 255, 255) , rgb(69, 252, 69) );
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -15,6 +16,19 @@ body{
 #search-icon{
     width: 26px;
     height: 18px;
+}
+#logo{
+    opacity: 1.0;
+}
+.mid{
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    align-items: center;
+}
+.mid h4{
+    margin: auto;
+    width: 50%;
 }
 .container{
     width: 100%;
@@ -62,10 +76,12 @@ nav ul li a:hover{
 }
 .main{
     border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    width: 50%;
     display: inline;
-    margin-top: 40%;
+    margin-top: 40px;
     margin-left: 35%;
-    padding: 30px;
+    padding: 100px;
     
     
 }
