@@ -27,8 +27,7 @@ body{
     align-items: center;
 }
 .mid h4{
-    margin: auto;
-    width: 50%;
+    text-align: center;
 }
 .container{
     width: 100%;
