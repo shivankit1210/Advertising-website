@@ -12,19 +12,33 @@ body{
 } */
 #location{
     display: inline;
+    padding: auto;
 }
 #search-icon{
     width: 26px;
     height: 18px;
+    margin-top: 5px;
+    border-radius: 70%;
 }
 #logo{
     opacity: 1.0;
 }
 .mid{
-    margin: auto;
-    width: 70%;
+    text-align: center;
     padding: 30px;
-    align-items: center;
+    
+}
+.main{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    margin: auto;
+    width: 50%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 20%;
+    padding: 20px;
+    
+    
 }
 .mid h4{
     text-align: center;
@@ -72,17 +86,6 @@ nav ul li a:hover{
     cursor: pointer;
     display: none ;
 
-}
-.main{
-    border: 1px solid rgb(255, 255, 255);
-    margin: auto;
-    width: 50%;
-    display: inline;
-    margin-top: 40px;
-    margin-left: 35%;
-    padding: 100px;
-    
-    
 }
 @media only screen and (max-width:700px){
     nav ul{
