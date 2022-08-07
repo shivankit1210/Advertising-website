@@ -45,7 +45,7 @@ body {
 .main {
     background-color: #FFD700;
     /* opacity: 0.5; */
-    border: 1px solid #FFD700
+    border: 1px solid #FFD700;
     border-radius: 60px;
     margin: auto;
     width: 50%;
