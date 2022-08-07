@@ -1,125 +1,162 @@
-body{
+body {
     background-image: url('bg.jpg');
     /* background-image: linear-gradient(rgb(255, 255, 255) , rgb(69, 252, 69) ); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-#location{
+#menulist {
+    font-size: large;
+}
+
+#location {
     display: inline;
     padding: auto;
-    border: 1px solid rgb(65, 255, 65);
+    border: 1px solid #FFD700;
     color: rgb(0, 0, 0);
     width: 43%;
 }
-#search-icon{
+
+#search-icon {
     width: 26px;
     height: 18px;
     margin-top: 5px;
     border-radius: 70%;
 }
-#logo{
+
+#logo {
     opacity: 1.0;
+    /* size: 100px; */
 }
-#h-type{
-    border: 1px solid rgb(65, 255, 65);
+
+#h-type {
+    border: 1px solid #FFD700;
     color: rgb(0, 0, 0);
     width: 40%;
 }
-.mid{
+
+.mid {
     text-align: center;
     padding: 30px;
     color: white;
-    
+
 }
-.main{
-    border: 1px solid rgb(65, 255, 65);
+
+.main {
+    background-color: #FFD700;
+    /* opacity: 0.5; */
+    border: 1px solid #FFD700
     border-radius: 60px;
     margin: auto;
     width: 50%;
     display: block;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 20%;
     padding: 20px;
-    
-    
+
+
 }
-.main-inner{
+
+
+
+.main-inner {
     margin: auto;
-    width:50%;
+    width: 50%;
 }
-.mid h1{
-    color: rgb(65, 255, 65);
+
+.mid h1 {
+    /* color: rgba(230, 255, 2, 0.89); */
+       color: #FFD700;
+    /* font-family: 'Roboto Slab', serif;
+    font-family: 'Trispace', sans-serif; */
 }
-.mid h4{
+
+.mid h4 {
     text-align: center;
-    color: rgb(65, 255, 65);
+    color: #FFD700;
+    /* font-family: 'Roboto Slab', serif;
+    font-family: 'Trispace', sans-serif; */
 }
-.container{
+
+.contents{
     width: 100%;
     min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    overflow:hidden;
+    overflow: hidden;
 
 }
-.navbar{
+
+.navbar {
     width: 100%;
     display: flex;
     align-items: center;
 }
-.logo{
-    width: 50px;
-    cursor:pointer;
-    margin:30px 0px;
-}
-nav{
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    margin: 20px 0px;
+    }
+
+nav {
     flex: 1;
     text-align: right;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
-    
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 43, 0);
-    
-    font-size: 14px;
-}
-nav ul li a:hover{
-    color: rgb(65, 255, 65);
-}
-.menu-icon{
-    width: 25px;
-    cursor: pointer;
-    display: none ;
+    font-weight: 600;
 
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgba(7, 7, 7, 0.89);
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/* .border{
+    border: 10px solid rgba(200, 218, 42, 0.89);
+} */
 
 /* style start for index2.html */
 
-.box-outer{
-   /* border: 1px solid white; */
-   margin: auto;
-   
-   width: 50%;
-   height: 380px;
-   padding: 30px;
+.box-outer {
+    /* border: 1px solid white; */
+    margin: auto;
+
+    width: 50%;
+    height: 380px;
+    padding: 30px;
 }
-.box-inner{
-    background-color:rgb(253, 253, 253) ;
+
+.box-inner {
+    background-color: rgb(253, 253, 253);
     opacity: .8;
-    color: rgb(65, 255, 65);
-    border: 2px solid rgb(65, 255, 65) ;
+    color: #FFD700;
+    border: 2px solid rgb(65, 255, 65);
     border-radius: 5px;
     display: block;
     padding: 1px
 }
-.main-2{
+
+.main-2 {
     border: 1px solid rgb(65, 255, 65);
     border-radius: 10px;
     margin: auto;
@@ -130,28 +167,33 @@ nav ul li a:hover{
     padding: 20px;
 }
 
-@media only screen and (max-width:700px){
-    nav ul{
+@media only screen and (max-width:700px) {
+    nav ul {
         width: 100%;
-        background: rgb(65, 255, 65);
+        background: #FFD700;
         position: absolute;
         right: 0;
         top: 75px;
         z-index: 2;
+        opacity: 0.9;
     }
-    nav ul li{
-        display:block;
+
+    nav ul li {
+        display: block;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    nav ul li a{
-        color: rgb(255, 255, 255);
+
+    nav ul li a {
+        color: rgb(7, 7, 7);
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
 
     }
-    #MenuList{
+
+    #MenuList {
         overflow: hidden;
         transition: 1.2s;
     }
