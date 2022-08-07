@@ -1,6 +1,5 @@
 body {
     background-image: url('bg.jpg');
-    /* background-image: linear-gradient(rgb(255, 255, 255) , rgb(69, 252, 69) ); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -44,7 +43,6 @@ body {
 
 .main {
     background-color: #FFD700;
-    /* opacity: 0.5; */
     border: 1px solid #FFD700;
     border-radius: 60px;
     margin: auto;
@@ -65,17 +63,14 @@ body {
 }
 
 .mid h1 {
-    /* color: rgba(230, 255, 2, 0.89); */
-       color: #FFD700;
-    /* font-family: 'Roboto Slab', serif;
-    font-family: 'Trispace', sans-serif; */
+    
+  color: #FFD700;
 }
 
 .mid h4 {
     text-align: center;
     color: #FFD700;
-    /* font-family: 'Roboto Slab', serif;
-    font-family: 'Trispace', sans-serif; */
+    
 }
 
 .contents{
@@ -121,7 +116,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgba(7, 7, 7, 0.89);
+    color: #FFD700;
 }
 
 .menu-icon {
