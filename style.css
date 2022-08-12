@@ -1,5 +1,6 @@
 body {
     background-image: url('bg.jpg');
+    /* background-image: linear-gradient(rgb(255, 255, 255) , rgb(69, 252, 69) ); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -43,6 +44,7 @@ body {
 
 .main {
     background-color: #FFD700;
+    /* opacity: 0.5; */
     border: 1px solid #FFD700;
     border-radius: 60px;
     margin: auto;
@@ -63,14 +65,17 @@ body {
 }
 
 .mid h1 {
-    
-  color: #FFD700;
+    /* color: rgba(230, 255, 2, 0.89); */
+       color: #FFD700;
+    /* font-family: 'Roboto Slab', serif;
+    font-family: 'Trispace', sans-serif; */
 }
 
 .mid h4 {
     text-align: center;
     color: #FFD700;
-    
+    /* font-family: 'Roboto Slab', serif;
+    font-family: 'Trispace', sans-serif; */
 }
 
 .contents{
@@ -116,7 +121,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFD700;
+    color: rgba(7, 7, 7, 0.89);
 }
 
 .menu-icon {
@@ -161,6 +166,24 @@ nav ul li a:hover {
     margin-left: 20%;
     padding: 20px;
 }
+
+
+
+/* set form background colour*/
+.login-box{
+    padding-top: 25vh;
+}
+form{
+	background: #fff;
+    border: 1px solid #FFD700;
+    
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
 
 @media only screen and (max-width:700px) {
     nav ul {
