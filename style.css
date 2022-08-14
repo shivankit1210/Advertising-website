@@ -6,7 +6,7 @@ body {
 }
 
 .black{
-    background-color: black;
+    background-color: rgba(10, 10, 10, 0.5);
     opacity: 0.8;
 }
 
@@ -70,17 +70,14 @@ body {
 }
 
 .mid h1 {
-    /* color: rgba(230, 255, 2, 0.89); */
+       font-size: 4vw; ;
        color: #FFD700;
-    /* font-family: 'Roboto Slab', serif;
-    font-family: 'Trispace', sans-serif; */
 }
 
 .mid h4 {
     text-align: center;
     color: #FFD700;
-    /* font-family: 'Roboto Slab', serif;
-    font-family: 'Trispace', sans-serif; */
+    font-size: 3.2vw;
 }
 
 .contents{
@@ -211,6 +208,13 @@ form{
 
 .marg{
     margin-bottom: 5%;
+}
+
+/* for login page */
+
+.g-logo img{
+    size: 1px;
+    border-radius: 100%;
 }
 
 @media only screen and (max-width:700px) {
