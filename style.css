@@ -5,6 +5,11 @@ body {
     background-size: 100% 100%;
 }
 
+.black{
+    background-color: black;
+    opacity: 0.8;
+}
+
 #menulist {
     font-size: large;
 }
@@ -121,7 +126,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgba(7, 7, 7, 0.89);
+    color: rgba(255, 255, 255, 0.89);
 }
 
 .menu-icon {
@@ -184,6 +189,29 @@ form{
 	padding: 30px;
 }
 
+/* style for product list  start */
+
+.pro_det h1{
+    color: #FFD700;
+}
+
+.pro_det h3{
+   color: antiquewhite;
+}
+
+.pad{
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.index-pad{
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.marg{
+    margin-bottom: 5%;
+}
 
 @media only screen and (max-width:700px) {
     nav ul {
