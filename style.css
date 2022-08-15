@@ -7,7 +7,7 @@ body {
 
 .black{
     background-color: rgba(10, 10, 10, 0.5);
-   
+    opacity: 0.8;
 }
 
 #menulist {
@@ -186,6 +186,8 @@ form{
 	padding: 30px;
 }
 
+
+
 /* style for product list  start */
 
 .pro_det h1{
@@ -210,11 +212,22 @@ form{
     margin-bottom: 5%;
 }
 
+
 /* for login page */
 
 .g-logo img{
     size: 1px;
     border-radius: 100%;
+}
+
+/* for transaction */
+
+.tick-img{
+    border: 2px solid #FFD700 ;
+    border-radius: 100%;
+    padding: 0px;
+    margin: 5px;
+    
 }
 
 @media only screen and (max-width:700px) {
