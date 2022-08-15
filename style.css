@@ -1,6 +1,6 @@
 body {
-    background-image: url('bg.jpg');
-    /* background-image: linear-gradient(rgb(255, 255, 255) , rgb(69, 252, 69) ); */
+    /* background-image: url('bg.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75) , rgba(0, 0, 0, 0.75) ) , url('bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -133,14 +133,12 @@ nav ul li a:hover {
 
 }
 
-/* .border{
-    border: 10px solid rgba(200, 218, 42, 0.89);
-} */
+
 
 /* style start for index2.html */
 
 .box-outer {
-    /* border: 1px solid white; */
+    
     margin: auto;
 
     width: 50%;
@@ -220,6 +218,9 @@ form{
     border-radius: 100%;
 }
 
+.login-pad{
+    padding-top: 50px;
+}
 /* for transaction */
 
 .tick-img{
@@ -229,6 +230,14 @@ form{
     margin: 5px;
     
 }
+
+
+/* for register page */
+
+.bor-rad{
+    border-radius: 10px;
+}
+
 
 @media only screen and (max-width:700px) {
     nav ul {
