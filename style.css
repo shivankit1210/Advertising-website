@@ -211,6 +211,7 @@ form{
 }
 
 
+
 /* for login page */
 
 .g-logo img{
@@ -238,6 +239,10 @@ form{
     border-radius: 10px;
 }
 
+
+.f-color{
+    color: #FFD700;
+}
 
 @media only screen and (max-width:700px) {
     nav ul {

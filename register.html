@@ -2,91 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Register Yourself</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Register Yourself-2</title>
 </head>
 
 <body class="p-3 m-0 border-0 bd-example">
-    
-        <div class="contents">
-            <div class="navbar">
-                <img src="LOGO.png" id="logo" alt="Company logo" class="logo">
-                <nav>
-                    <ul id="MenuList">
-                        <li><a href="/"> Home</a> </li>
-                        <li><a href=""> About Us</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Mail Us</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </nav>
-                <img src="menu-o.png" alt="" class="menu-icon" onclick="togglemenu()">
+
+  <div class="contents">
+    <div class="navbar">
+      <img src="LOGO.png" id="logo" alt="Company logo" class="logo">
+      <nav>
+        <ul id="MenuList">
+          <li><a href="/"> Home</a> </li>
+          <li><a href=""> About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Mail Us</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+      <img src="menu-o.png" alt="" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+    <section class="container-fluid login-box login-pad f-color pad">
+      <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-4">
+          <form class="form-container">
+            <div class="mb-3 p-0">
+              <label for="username"  style="font-size:large " class="form-label">Username</label>
+              <input type="text" class="form-control " id="exampleInputPassword1">
             </div>
 
-            <div class="bor-rad index-pad" class="container">
+            <label for="first-last-name" style="font-size:large " class="form-label">First and Last Name</label>
+
+            <div class="input-group mb-3 p-0 border-warning ">
 
 
-                <div class="row justify-content-md-center pad form-container ">
-                    <form class="pad marg">
-                        <div class="mb-3">
-                        <label for="username" class="form-label">Username</label>
-                        <input type="text" class="form-control border-warning" id="exampleInputPassword1">
-                      </div>
-                      <div class="mb-3">
-                      <label for="contact-no" class="form-label">Contact Number</label>
-                      <input type="text" class="form-control border-warning" id="exampleInputPassword1">
-                      <div id="emailHelp" class="form-text">We'll never share your contact number with anyone else.</div>
-                    </div>
-                          <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control border-warning" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                          </div>
-                          <div class="mb-3">
-                            <label for="Password" class="form-label">Password</label>
-                            <input type="password" class="form-control border-warning" id="exampleInputPassword1">
-                          </div>
-                          <div class="mb-3">
-                          <label for="confirm-Password" class="form-label">Confirm Password</label>
-                          <input type="password" class="form-control border-warning" id="exampleInputPassword1">
-                        </div>
-                          <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input border-warning" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Creat my account</label>
-                          </div>
-                          <button type="submit" class="btn btn-warning">REGISTER</button>
-                        </form>
 
-                </div>
+              <input type="text" aria-label="first name" class="form-control">
+              <input type="text" aria-label="last name" class="form-control">
+
 
             </div>
-        </div>
 
-    <script>
-        var MenuList = document.getElementById("MenuList");
+            <div class="mb-3 p-0">
+              <label for="Password" style="font-size:large " class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
 
+            <label for="first-last-name" style="font-size:large " class="form-label">email and Phone no.</label>
+
+            <div class="input-group mb-3 p-0 border-warning ">
+
+            
+              <input type="email" aria-label="email" class="form-control">
+              <input type="number" aria-label="phone-no" class="form-control">
+
+            </div>
+
+
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input border-warning" id="exampleCheck1">
+              <label class="form-check-label"  for="exampleCheck1">Creat my account</label>
+            </div>
+            <button type="submit" style="font-size:large " class="btn btn-warning">REGISTER</button>
+
+          </form>
+        </section>
+      </section>
+    </section>
+  </div>
+
+  <script>
+    var MenuList = document.getElementById("MenuList");
+
+    MenuList.style.maxHeight = "0px";
+
+    function togglemenu() {
+      if (MenuList.style.maxHeight == "0px") {
+        MenuList.style.maxHeight = "185px";
+      }
+      else {
         MenuList.style.maxHeight = "0px";
+      }
+    }
 
-        function togglemenu() {
-            if (MenuList.style.maxHeight == "0px") {
-                MenuList.style.maxHeight = "185px";
-            }
-            else {
-                MenuList.style.maxHeight = "0px";
-            }
-        }
-
-    </script>
+  </script>
 
 </body>
 
