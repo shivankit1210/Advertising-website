@@ -209,6 +209,12 @@ form{
 .marg{
     margin-bottom: 5%;
 }
+ .white-bg{
+    background-color:rgb(231, 231, 231);
+    
+    border: 7px solid FFD700 ;
+ }
+
 
 
 
