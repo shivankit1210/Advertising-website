@@ -209,6 +209,13 @@ form{
 .marg{
     margin-bottom: 5%;
 }
+ .white-bg{
+    background-color:rgb(231, 231, 231);
+    
+    border: 7px solid FFD700 ;
+ }
+
+
 
 
 /* for login page */
@@ -238,6 +245,10 @@ form{
     border-radius: 10px;
 }
 
+
+.f-color{
+    color: #FFD700;
+}
 
 @media only screen and (max-width:700px) {
     nav ul {
