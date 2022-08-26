@@ -188,14 +188,19 @@ form{
 
 /* style for product list  start */
 
-.pro_det h1{
+/* .pro_det h1{
     color: #FFD700;
-}
-
+} */
+/* 
 .pro_det h3{
    color: antiquewhite;
-}
+} */
 
+.prod-box{
+    max-width: 500px;
+    margin: auto;
+    overflow-x: visible;
+}
 .pad{
     padding-bottom: 2%;
     border-radius: 20px;
