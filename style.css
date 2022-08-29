@@ -255,6 +255,16 @@ form{
     color: #FFD700;
 }
 
+/* Style for cart */
+
+.cart-box{
+padding: 20px;
+}
+
+.input-box{
+    width: 40px;
+}
+
 @media only screen and (max-width:700px) {
     nav ul {
         width: 100%;
@@ -285,4 +295,5 @@ form{
         overflow: hidden;
         transition: 1.2s;
     }
+   
 }
