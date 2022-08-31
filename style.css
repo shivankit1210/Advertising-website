@@ -251,13 +251,20 @@ form{
 
 /* Style for cart */
 
-.cart-box{
+.cart-box-out{
 padding: 20px;
+border: 2px solid #FFD700;
+border-radius: 1%;
 }
 
 .input-box{
     width: 40px;
 }
+.cart-box-inner{
+    border-radius: 15px;
+    border: 2px solid #FFD700   ;
+}
+
 
 @media only screen and (max-width:700px) {
     nav ul {
