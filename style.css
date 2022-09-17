@@ -167,6 +167,24 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+/* .index2-pad{
+    padding: 10px;
+    border-radius: 50px;
+
+} */
+
+.black-bg{
+    background-color: black;
+    opacity: 1.0;
+}
+.black-bg h5 {
+    color: white;
+}
+.black-bg p {
+    color: white;
+}
+
+
 
 
 /* set form background colour*/
